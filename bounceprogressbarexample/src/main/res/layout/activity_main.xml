@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:BounceProgressBar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.halohoop.bounceprogressbar.views.BounceProgressBar
+        android:background="#00d5f1"
+        android:id="@+id/bpb"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        BounceProgressBar:LineWidth="200"
+        BounceProgressBar:LineColor="#fff700"
+        BounceProgressBar:StrokeWidth="5"
+        BounceProgressBar:FixRadius="10"
+        BounceProgressBar:FixBallColor="#ff0000"
+        BounceProgressBar:BouncingBallRadius="50"
+        BounceProgressBar:BouncingBallColor="#bf00ff"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BounceProgressBar">
+        <attr name="LineWidth" format="float"></attr>
+        <attr name="LineColor" format="color"></attr>
+        <attr name="StrokeWidth" format="float"></attr>
+        <attr name="FixRadius" format="float"></attr>
+        <attr name="FixBallColor" format="color"></attr>
+        <attr name="BouncingBallRadius" format="float"></attr>
+        <attr name="BouncingBallColor" format="color"></attr>
+    </declare-styleable>
+</resources>
