@@ -1,4 +1,4 @@
-# RibbenTextView
+# BounceProgressbar
 
 ![Markdown](http://i4.buimg.com/8359/58298ce38ae4fc73.gif)
 ![Markdown](http://i1.buimg.com/8359/cc8f82108620614e.gif)
