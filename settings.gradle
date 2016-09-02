@@ -1,1 +1,1 @@
-include ':bounceprogressbar-lib', ':bounceprogressbarexample'
+include ':bounceprogressbar-lib', ':bounceprogressbarexample', ':bounceprogressbarexample2'

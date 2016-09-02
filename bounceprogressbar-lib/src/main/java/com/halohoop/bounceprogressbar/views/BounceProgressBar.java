@@ -79,6 +79,15 @@ public class BounceProgressBar extends SurfaceView implements SurfaceHolder.Call
         if (mIsAnimationShowing) {
             return;
         }
+        endTotalAnimation();
+
+        mAnimatorSet.start();
+    }
+
+    public void endTotalAnimation() {
+        mDownControllor.cancel();
+        mFreeControllor.cancel();
+        mUpControllor.cancel();
         if (mAnimatorSet.isRunning()) {
             mAnimatorSet.end();
             mAnimatorSet.cancel();
@@ -88,8 +97,10 @@ public class BounceProgressBar extends SurfaceView implements SurfaceHolder.Call
         mIsAnimationShowing = false;
         mNeedUseFreeData = false;
         mIsUpControllorDied = false;
+    }
 
-        mAnimatorSet.start();
+    public boolean isLoading(){
+        return mAnimatorSet.isRunning();
     }
 
     public void setBouncingBallColor(int mBouncingBallColor) {
