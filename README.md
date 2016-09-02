@@ -5,7 +5,7 @@
 
 #Usage 
 
-**compile 'com.halohoop:bounceprogressbar:1.0.1'**
+**compile 'com.halohoop:bounceprogressbar:1.0.2'**
 
     <com.halohoop.bounceprogressbar.views.BounceProgressBar
         android:background="#00d5f1"
@@ -30,13 +30,18 @@
 
 # Compatibility
   
-  * Android 3.0+
+  * Android 3.0+,cuz needing the ValueAnimator;
   
 # Changelog
+
+### Version: 1.0.2
+
+  * add method for stop animation,endTotalAnimation();
 
 ### Version: 1.0.1
 
   * change color by code instead of by attrs in xml;
+
 ### Version: 1.0
 
   * Initial Build
