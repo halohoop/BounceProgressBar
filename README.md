@@ -29,7 +29,7 @@
 !![Markdown](http://i4.buimg.com/8359/a74331babbcd886c.jpg)
 
 # Compatibility
-  
+
   * Android 3.0+,cuz needing the ValueAnimator;
   
 # Changelog
