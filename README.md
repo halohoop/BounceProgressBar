@@ -31,6 +31,7 @@
 # Compatibility
 
   * Android 3.0+,cuz needing the ValueAnimator;
+
 # Changelog 
 
 ### Version: 1.0.2
