@@ -1,7 +1,8 @@
 # BounceProgressbar
 
-![Markdown](http://i4.buimg.com/8359/58298ce38ae4fc73.gif)
-![Markdown](http://i1.buimg.com/8359/cc8f82108620614e.gif)
+![demo0](./demo0.gif)
+
+![demo1](./demo1.gif)
 
 #Usage 
 
@@ -26,7 +27,6 @@
 * you can custom attrs such as color,line width, radius and so on;
 
 # Customization
-!![Markdown](http://i4.buimg.com/8359/a74331babbcd886c.jpg)
 
 # Compatibility
 
